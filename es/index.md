@@ -27,6 +27,7 @@ Guías cortas de cada función. Ábrelas desde **Conoce más** dentro de la app.
 - [Archivado]({{ '/es/archive/' | relative_url }})
 - [Integrantes del equipo]({{ '/es/team/' | relative_url }})
 - [Conecta GitHub]({{ '/es/github/' | relative_url }})
+- [Elige un servidor]({{ '/es/choose-a-server/' | relative_url }})
 - [Qué IA usa cada Bot]({{ '/es/which-ai/' | relative_url }})
 - [VectoCrawl]({{ '/es/vectocrawl/' | relative_url }})
 - [Mejores resultados con claves]({{ '/es/vectocrawl-keys/' | relative_url }})

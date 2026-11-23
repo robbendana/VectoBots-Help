@@ -27,6 +27,7 @@ Short guides for every feature. Open one from **Learn more** inside the app.
 - [Archive]({{ '/archive/' | relative_url }})
 - [Team members]({{ '/team/' | relative_url }})
 - [Connect GitHub]({{ '/github/' | relative_url }})
+- [Choose a server]({{ '/choose-a-server/' | relative_url }})
 - [Which AI each Bot uses]({{ '/which-ai/' | relative_url }})
 - [VectoCrawl]({{ '/vectocrawl/' | relative_url }})
 - [Better results with keys]({{ '/vectocrawl-keys/' | relative_url }})
