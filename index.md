@@ -20,6 +20,7 @@ Short guides for every feature. Open one from **Learn more** inside the app.
 - [Install the app]({{ '/install-app/' | relative_url }})
 - [Monthly limit]({{ '/monthly-limit/' | relative_url }})
 - [Costs]({{ '/costs/' | relative_url }})
+- [Plan usage]({{ '/plan-usage/' | relative_url }})
 - [Let Bots use your laptop]({{ '/laptop-control/' | relative_url }})
 - [Freeze reports]({{ '/freeze-reports/' | relative_url }})
 - [Voice calls]({{ '/voice-calls/' | relative_url }})

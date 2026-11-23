@@ -13,4 +13,6 @@ El trabajo con un plan **no se cobra por mensaje**. Un plan tiene una ventana de
 
 Se muestra dinero del trabajo pagado con una clave de API. El trabajo con un plan se muestra como estimación.
 
+Para ver cuánto llevas usado de cada plan, lee [Uso del plan]({{ '/es/plan-usage/' | relative_url }}).
+
 [Todos los artículos de ayuda]({{ '/es/' | relative_url }})
