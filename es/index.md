@@ -20,6 +20,7 @@ Guías cortas de cada función. Ábrelas desde **Conoce más** dentro de la app.
 - [Instala la app]({{ '/es/install-app/' | relative_url }})
 - [Límite mensual]({{ '/es/monthly-limit/' | relative_url }})
 - [Costos]({{ '/es/costs/' | relative_url }})
+- [Uso del plan]({{ '/es/plan-usage/' | relative_url }})
 - [Deja que los Bots usen tu laptop]({{ '/es/laptop-control/' | relative_url }})
 - [Reportes de bloqueos]({{ '/es/freeze-reports/' | relative_url }})
 - [Llamadas de voz]({{ '/es/voice-calls/' | relative_url }})

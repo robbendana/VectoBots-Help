@@ -65,4 +65,6 @@ Un consultor tiene un Bot con clave de API para informes largos. Costos muestra 
 - [Qué IA usa cada Bot]({{ '/es/which-ai/' | relative_url }})
 - [Pensar de noche]({{ '/es/overnight-thinking/' | relative_url }}): tiene su propio límite diario de gasto.
 
+Para ver cuánto llevas usado de cada plan, lee [Uso del plan]({{ '/es/plan-usage/' | relative_url }}).
+
 [Todos los artículos de ayuda]({{ '/es/' | relative_url }})
