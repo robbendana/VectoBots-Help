@@ -1,0 +1,12 @@
+title: VectoBots help
+theme: minima
+lang: en
+# Served as a project site at https://<account>.github.io/VectoBots-Help/ . If the site gets its own domain, set baseurl to "".
+baseurl: "/VectoBots-Help"
+header_pages:
+  - index.md
+  - es/index.md
+exclude:
+  - README.md
+# Articles: one file per feature. English at /<topic>/, Spanish at /es/<topic>/.
+# The app links here through MB.helpBase in web/controls.js.
