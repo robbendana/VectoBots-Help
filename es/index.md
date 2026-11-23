@@ -6,7 +6,7 @@ permalink: /es/
 
 # Ayuda de VectoBots
 
-Guías cortas de cada función. Ábrelas desde **Más información** dentro de la app.
+Guías cortas de cada función. Ábrelas desde **Conoce más** dentro de la app.
 
 [English]({{ '/' | relative_url }})
 
