@@ -44,6 +44,7 @@ Good servers sell out. **Check that a plan can be ordered before you plan around
 **For one person, or you and 2 or 3 people (4 CPUs, 8 GB):**
 
 1. **OVHcloud VPS-2**, about US$10 a month with no commitment (from US$8.50 on 12 months). **Orderable on November 23, 2026**, in the US East (Virginia) location only, with 75 GB of disk.
+   - **Need more disk?** OVHcloud sells extra disk space for VPS-2 (the configurator offers 50, 100, 200 GB and more). We saw the add-on listed from US$2.60 a month (before taxes) on November 23, 2026, but could not confirm the exact price for 100 GB, so check the price shown to you before you pay. With about 100 GB extra you would have roughly 175 GB for about US$10 to US$15 a month in total. Add the disk from your OVHcloud control panel after the server is ready, or look for the option in the order page. If it is not offered in your order, ask OVHcloud support.
 2. **netcup VPS 1000**: 4 CPUs, 8 GB, 128 GB, about €14 a month month to month. Orderable.
 
 ## All the choices side by side
