@@ -27,7 +27,7 @@ Check the company's own page if you are unsure about your plan. The app shows wh
 The app looks again about every 5 minutes.
 
 - **ChatGPT.** It reads the usage that ChatGPT's own tool records on your computer each time it works. This costs nothing.
-- **Claude.** Every Bot run updates it. If no run has updated it for 5 minutes, the app sends one very short message on Claude's smallest model, only to receive the usage report. It uses a tiny part of your plan, it never runs while a Claude Bot is working, and it slows to about once an hour when your plan has been idle since its 5-hour window ended. It stops at once if Claude Code is signed in with a key instead of your plan. You can turn it off in Settings, under Usage.
+- **Claude.** Every Bot run updates it. If no run has updated it for 5 minutes, the app sends one very short message on Claude's smallest model, only to receive the usage report. It uses a tiny part of your plan, it never runs while a Claude Bot is working, it slows to about once an hour when nothing has run since the last check, and it skips while your plan is in extra usage. It stops at once, for many hours, if Claude Code is signed in with a key instead of your plan. It ignores your own Claude Code settings and hooks. You can turn it off in Settings, under Usage.
 
 Between readings the app tells you how old the reading is. A window that has already started over is marked as an **estimate** until the next reading, because the app has not heard the new figure yet.
 
@@ -46,8 +46,8 @@ Between readings the app tells you how old the reading is. A window that has alr
 
 The app also watches how fast a window has been filling. If, at that pace, a window would run out before it resets, your lead Bot tells you in plain words, for example: "At this pace your Claude 5-hour limit runs out around 3:40 PM, before it resets at 5:10 PM. I'll do the most important work first." It also tells you once when a window passes 85% used.
 
-- It is an estimate. Use comes in bursts, so the time can move. It needs the window to be at least 20% used and a little history before it says anything.
-- You get at most one heads-up per window for each of the two reasons, never a repeat.
+- It is an estimate. Use comes in bursts, so the time can move. It needs the window to be at least 20% used and some history before it says anything: 10 minutes for the 5-hour window, 6 hours for the week.
+- You get at most one heads-up per window for each of the two reasons, never a repeat. They do not use up your Bot's own daily check-ins.
 - It follows your Bot's **On its own** setting. Below **Check in**, the Bot does not start the message. It still knows, and says it when you ask or when it replies to you. Quiet hours and the daily limit also apply.
 
 ## Common problems

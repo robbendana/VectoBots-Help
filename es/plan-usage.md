@@ -27,7 +27,7 @@ Si dudas de tu plan, revisa la página de la empresa. La app muestra lo que tu p
 La app vuelve a revisar cada 5 minutos, más o menos.
 
 - **ChatGPT.** Lee el uso que la propia herramienta de ChatGPT guarda en tu computadora cada vez que trabaja. No cuesta nada.
-- **Claude.** Cada ejecución de un Bot lo actualiza. Si ninguna ejecución lo ha actualizado en 5 minutos, la app envía un mensaje muy corto al modelo más pequeño de Claude, solo para recibir el reporte de uso. Gasta una parte mínima de tu plan nunca se hace mientras un Bot de Claude está trabajando, y baja a una vez por hora cuando tu plan está inactivo desde que terminó su ventana de 5 horas. Se detiene de inmediato si Claude Code tiene una sesión con clave en lugar de tu plan. Puedes apagarlo en Configuración, en Uso.
+- **Claude.** Cada ejecución de un Bot lo actualiza. Si ninguna ejecución lo ha actualizado en 5 minutos, la app envía un mensaje muy corto al modelo más pequeño de Claude, solo para recibir el reporte de uso. Gasta una parte mínima de tu plan nunca se hace mientras un Bot de Claude está trabajando, baja a una vez por hora cuando no se ha ejecutado nada desde la última revisión, y se omite mientras tu plan está en uso extra. Se detiene de inmediato, por muchas horas, si Claude Code tiene una sesión con clave en lugar de tu plan. Ignora tus propios ajustes y hooks de Claude Code. Puedes apagarlo en Configuración, en Uso.
 
 Entre lecturas, la app te dice qué tan vieja es la lectura. Una ventana que ya se reinició se marca como **estimado** hasta la siguiente lectura, porque la app todavía no conoce la cifra nueva.
 
@@ -46,8 +46,8 @@ Entre lecturas, la app te dice qué tan vieja es la lectura. Una ventana que ya 
 
 La app también vigila qué tan rápido se está llenando una ventana. Si a ese ritmo una ventana se agotaría antes de reiniciarse, tu Bot líder te avisa en palabras sencillas, por ejemplo: "A este ritmo, tu límite de 5 horas de Claude se agota alrededor de las 3:40 PM, antes de reiniciarse a las 5:10 PM. Haré primero el trabajo más importante." También te avisa una vez cuando una ventana pasa de 85% usado.
 
-- Es un estimado. El uso llega a ráfagas, así que la hora puede moverse. Necesita que la ventana lleve al menos 20% usado y un poco de historial antes de decir algo.
-- Recibes como máximo un aviso por ventana por cada uno de los dos motivos, nunca repetido.
+- Es un estimado. El uso llega a ráfagas, así que la hora puede moverse. Necesita que la ventana lleve al menos 20% usado y algo de historial antes de decir algo: 10 minutos para la ventana de 5 horas y 6 horas para la semana.
+- Recibes como máximo un aviso por ventana por cada uno de los dos motivos, nunca repetido. No gastan los avisos diarios propios de tu Bot.
 - Sigue el ajuste **Por su cuenta** de tu Bot. Por debajo de **Avisar**, el Bot no inicia el mensaje. Aun así lo sabe y te lo dice cuando preguntas o cuando te responde. También aplican las horas de silencio y el límite diario.
 
 ## Problemas comunes
