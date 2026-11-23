@@ -19,7 +19,7 @@ Lo que importa es **cuántos Bots trabajan al mismo tiempo**, no solo cuántas p
 |---|---|---|
 | Solo tú | **4 CPU y 8 GB de memoria** | Espacio para varios Bots trabajando a la vez, más la transcripción de voz. |
 | Tú y 2 o 3 personas | **4 a 6 CPU y 8 a 12 GB** | Con más personas, hay más Bots trabajando al mismo tiempo. |
-| Un equipo de hasta 6 | **6 CPU y 12 GB de memoria** | Nuestra elección para un equipo pequeño. |
+| Un equipo de hasta 6 | **6 CPU y 12 GB de memoria** | El tamaño que sugerimos para un equipo pequeño. |
 
 Estos tamaños son **estimaciones** nuestras, basadas en lo que necesitan los Bots. Todavía no hemos probado un equipo completo de 6 trabajando a la vez, así que no lo prometemos. Si tu servidor se siente lento, puedes pasar a un plan más grande desde tu cuenta de OVHcloud, a un precio más alto.
 
@@ -31,20 +31,28 @@ También conviene saber:
 - Cada persona sigue usando **su propio plan de Claude**. El servidor no cambia los límites del plan.
 - Compartir con un equipo tiene algunos límites hoy. Lee primero [Integrantes del equipo]({{ '/es/team/' | relative_url }}).
 
-## Nuestra mejor opción: OVHcloud VPS-3 (unos US$14.50 al mes, antes de impuestos)
+## Nuestras opciones, y qué hacer cuando una se agota
 
-- 6 CPU, 12 GB de memoria, 100 GB de disco rápido.
-- **Mes a mes**: cancelas cuando quieras.
-- Ubicaciones en EE. UU.: Virginia (este) y Oregón (oeste).
-- Más barato si te comprometes: unos **US$13.77** al mes por 6 meses, o unos **US$12.32** por 12 meses.
-- El tamaño que sugerimos para un equipo de hasta 6 (es una estimación, ver arriba).
+Los buenos servidores se agotan. **Revisa que se pueda pedir un plan antes de planear con él**, y si está agotado, toma el siguiente de su lista. Inventario revisado el **23 de noviembre de 2026**.
 
-## Otras buenas opciones
+**Para un equipo de hasta 6 (6 CPU, 12 GB):**
+
+1. **OVHcloud VPS-3**, unos US$14.50 al mes sin compromiso (US$13.77 a 6 meses, US$12.32 a 12 meses, antes de impuestos). La mejor calidad de las tres. **Agotado el 23 de noviembre de 2026**: la página decía "currently unavailable". Vuelve a revisar más tarde.
+2. **Contabo Cloud VPS 6**: 6 CPU, 12 GB, 200 GB, unos €7.50 al mes mes a mes. Coincide en tamaño y se puede pedir, pero es un plan económico compartido con conexión de 300 Mbit/s, así que observaríamos su desempeño antes de confiarle a todo un equipo.
+3. **netcup VPS 2000**: 8 CPU, 16 GB, 256 GB, unos €26 al mes mes a mes (unos €22.60 a 12 meses). Se puede pedir. Muy bueno, pero el más caro de los tres.
+
+**Para una persona, o tú y 2 o 3 personas (4 CPU, 8 GB):**
+
+1. **OVHcloud VPS-2**, unos US$10 al mes sin compromiso (desde US$8.50 a 12 meses). **Se podía pedir el 23 de noviembre de 2026**, solo en la ubicación de EE. UU. Este (Virginia), con 75 GB de disco.
+2. **netcup VPS 1000**: 4 CPU, 8 GB, 128 GB, unos €14 al mes mes a mes. Se puede pedir.
+
+## Todas las opciones juntas
 
 | Servidor | Tamaño | Precio | Condiciones | Dónde |
 |---|---|---|---|---|
 | **OVHcloud VPS-2** | 4 CPU, 8 GB, 75 GB | desde US$8.50 al mes (precio a 12 meses, antes de impuestos) | Unos US$10 al mes sin compromiso | EE. UU. y el mundo |
 | **netcup VPS 1000** | 4 CPU, 8 GB, 128 GB | unos €12 al mes (12 meses), unos €14 mes a mes | Disponible mes a mes | Europa, o una ubicación en EE. UU. por unos €1.50 más al mes |
+| **Contabo Cloud VPS 6** | 6 CPU, 12 GB, 200 GB | unos €7.50 mes a mes | Disponible mes a mes | EE. UU. y Europa |
 | **Contabo Cloud VPS 4** | 4 CPU, 8 GB, 100 GB | unos €5.50 mes a mes | Mes a mes disponible | EE. UU. y Europa |
 | **Hostinger KVM 2** | 2 CPU, 8 GB | unos US$9 al mes, solo si pagas 24 meses por adelantado (unos US$216) | Se renueva en unos US$15 al mes | Revisa la página del proveedor |
 
@@ -66,12 +74,12 @@ Nadie puede prometerlo, pero esto es lo que vemos hoy:
 - **Hasta el 1 de diciembre de 2026**, OVHcloud ofrece hasta 3 meses gratis de su respaldo mejorado (Premium). No es un descuento en el servidor y puede costar dinero después del periodo gratis, así que revísalo antes de agregarlo. netcup podría tener ofertas en diciembre; no hemos confirmado ninguna.
 - Si estás seguro de que conservarás tu servidor un año, un compromiso de **12 meses** suele ser más barato y mantiene tu precio fijo durante esos 12 meses.
 
-## Pide el OVHcloud VPS-3, paso a paso
+## Pide un servidor de OVHcloud, paso a paso (con VPS-3 de ejemplo)
 
-Necesitas: un correo, una tarjeta de crédito o débito y unos 15 minutos. No deberían cobrarte hasta que confirmes el pedido al final. Seguimos la página de pedido de OVHcloud hasta el resumen (paso 8) el 23 de noviembre de 2026; las pantallas de registro y pago pueden ser distintas. Si algo se ve diferente, detente y pregúntale a tu Bot. OVHcloud también puede enviarte a otro sitio de OVHcloud según tu país; revisa que el precio del VPS-3 ahí coincida con esta guía.
+Si VPS-3 dice "currently unavailable", los mismos pasos sirven para VPS-2, o usa otra opción de arriba. Necesitas: un correo, una tarjeta de crédito o débito y unos 15 minutos. No deberían cobrarte hasta que confirmes el pedido al final. Seguimos la página de pedido de OVHcloud hasta el resumen (paso 8) el 23 de noviembre de 2026; las pantallas de registro y pago pueden ser distintas. Si algo se ve diferente, detente y pregúntale a tu Bot. OVHcloud también puede enviarte a otro sitio de OVHcloud según tu país; revisa que el precio del VPS-3 ahí coincida con esta guía.
 
 1. **Abre la página de planes.** Ve a **us.ovhcloud.com/vps**. Verás una fila de tarjetas de planes, entre ellas VPS-3.
-2. **Elige VPS-3.** Su tarjeta dice **6 vCores, 12 GB RAM, 100 GB SSD NVMe**. Haz clic (o toca) **Configure**.
+2. **Elige tu plan.** La tarjeta de VPS-3 dice **6 vCores, 12 GB RAM, 100 GB SSD NVMe**. Haz clic (o toca) **Configure**. Si la página dice que el plan no está disponible, o la lista de ubicaciones dice **No location available**, está agotado: regresa y toma la siguiente opción.
 3. **Periodo de compromiso (Commitment period).** Verás tres opciones: **No commitment**, **6 months (save 5%)** y **12 months (save 15%)**. **Ya viene seleccionada la de 12 meses.** Si quieres poder cancelar en cualquier momento, haz clic en **No commitment**. El precio "desde" de la tarjeta es el de 12 meses. Con 6 o 12 meses aceptas pagar el periodo completo aunque lo dejes antes. Todos los planes se renuevan y se cobran de nuevo hasta que canceles.
 4. **Número de VPS (Number of VPS).** Déjalo en **1**.
 5. **Ubicación (Location).** Abre la pestaña **North America** y elige **Virginia** (más cerca de la Ciudad de México) u **Oregón**.

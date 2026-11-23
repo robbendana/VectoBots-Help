@@ -19,7 +19,7 @@ What matters is **how many Bots work at the same time**, not only how many peopl
 |---|---|---|
 | Just you | **4 CPUs and 8 GB memory** | Room for a few Bots working at once, plus voice transcription. |
 | You and 2 or 3 people | **4 to 6 CPUs and 8 to 12 GB** | More people means more Bots working at the same time. |
-| A team of up to 6 | **6 CPUs and 12 GB memory** | Our pick for a small team. |
+| A team of up to 6 | **6 CPUs and 12 GB memory** | Our suggested size for a small team. |
 
 These sizes are our **estimates**, based on what the Bots need. We have not yet tested a full team of 6 working at once, so we will not promise it. If your server feels slow, you can move to a bigger plan from your OVHcloud account, for a higher price.
 
@@ -31,20 +31,28 @@ Also good to know:
 - Each person still uses **their own Claude plan**. The server does not change plan limits.
 - Sharing with a team has some limits today. Read [Team members]({{ '/team/' | relative_url }}) first.
 
-## Our top pick: OVHcloud VPS-3 (about US$14.50 a month, before taxes)
+## Our picks, and what to do when one is sold out
 
-- 6 CPUs, 12 GB memory, 100 GB fast disk.
-- **Month to month**: cancel any time.
-- US locations: Virginia (east) and Oregon (west).
-- Cheaper if you commit: about **US$13.77** a month for 6 months, or about **US$12.32** for 12 months.
-- Our suggested size for a team of up to 6 (an estimate, see above).
+Good servers sell out. **Check that a plan can be ordered before you plan around it**, and if it is sold out, take the next one on its list. Stock checked on **November 23, 2026**.
 
-## The other good choices
+**For a team of up to 6 (6 CPUs, 12 GB):**
+
+1. **OVHcloud VPS-3**, about US$14.50 a month with no commitment (US$13.77 on 6 months, US$12.32 on 12 months, before taxes). Best quality of the three. **Sold out on November 23, 2026**: the order page said "currently unavailable". Check again later.
+2. **Contabo Cloud VPS 6**: 6 CPUs, 12 GB, 200 GB, about €7.50 a month month to month. It matches the size on paper and is orderable, but it is a shared budget plan with a 300 Mbit/s connection, so we would watch how it performs before trusting it with a whole team.
+3. **netcup VPS 2000**: 8 CPUs, 16 GB, 256 GB, about €26 a month month to month (about €22.60 on 12 months). Orderable. Strong, but the most expensive of the three.
+
+**For one person, or you and 2 or 3 people (4 CPUs, 8 GB):**
+
+1. **OVHcloud VPS-2**, about US$10 a month with no commitment (from US$8.50 on 12 months). **Orderable on November 23, 2026**, in the US East (Virginia) location only, with 75 GB of disk.
+2. **netcup VPS 1000**: 4 CPUs, 8 GB, 128 GB, about €14 a month month to month. Orderable.
+
+## All the choices side by side
 
 | Server | Size | Price | Terms | Where |
 |---|---|---|---|---|
 | **OVHcloud VPS-2** | 4 CPUs, 8 GB, 75 GB | from US$8.50 a month (12-month price, before taxes) | About US$10 a month with no commitment | US and worldwide |
 | **netcup VPS 1000** | 4 CPUs, 8 GB, 128 GB | about €12 a month (12 months), about €14 month to month | Month to month available | Europe, or a US location for about €1.50 more a month |
+| **Contabo Cloud VPS 6** | 6 CPUs, 12 GB, 200 GB | about €7.50 month to month | Month to month available | US and Europe |
 | **Contabo Cloud VPS 4** | 4 CPUs, 8 GB, 100 GB | about €5.50 month to month | Month to month available | US and Europe |
 | **Hostinger KVM 2** | 2 CPUs, 8 GB | about US$9 a month, only if you pay 24 months up front (about US$216) | Renews at about US$15 a month | Check the provider's page |
 
@@ -66,12 +74,12 @@ Nobody can promise, but here is what we see today:
 - **Until December 1, 2026**, OVHcloud offers up to 3 months of its upgraded (Premium) backup free. It is not a discount on the server, and it may cost money after the free period, so check before adding it. netcup may have December offers; we have not confirmed any.
 - If you are sure you will keep your server for a year, a **12-month** commitment is usually cheaper and keeps your price fixed for those 12 months.
 
-## Order the OVHcloud VPS-3, step by step
+## Order an OVHcloud server, step by step (shown with VPS-3)
 
-You need: an email address, a credit or debit card, and about 15 minutes. You should not be charged until you confirm the order at the end. We followed OVHcloud's order page up to the summary (step 8) on November 23, 2026; the sign-up and payment screens may differ. If anything looks different, stop and ask your Bot. OVHcloud may also send you to a different OVHcloud site for your country, so check that the VPS-3 price there matches this guide.
+If VPS-3 says "currently unavailable", the same steps work for VPS-2, or use another pick above. You need: an email address, a credit or debit card, and about 15 minutes. You should not be charged until you confirm the order at the end. We followed OVHcloud's order page up to the summary (step 8) on November 23, 2026; the sign-up and payment screens may differ. If anything looks different, stop and ask your Bot. OVHcloud may also send you to a different OVHcloud site for your country, so check that the VPS-3 price there matches this guide.
 
 1. **Open the plans page.** Go to **us.ovhcloud.com/vps**. You see a row of plan cards, including VPS-3.
-2. **Choose VPS-3.** Its card says **6 vCores, 12 GB RAM, 100 GB SSD NVMe**. Click (or tap) **Configure**.
+2. **Choose your plan.** VPS-3's card says **6 vCores, 12 GB RAM, 100 GB SSD NVMe**. Click (or tap) **Configure**. If the page says the plan is unavailable, or the location list says **No location available**, it is sold out: go back and take the next pick.
 3. **Commitment period.** You see three boxes: **No commitment**, **6 months (save 5%)** and **12 months (save 15%)**. **12 months is already selected for you.** If you want to be able to cancel any time, click **No commitment**. The "starting at" price on the card is the 12-month price. With 6 or 12 months, you agree to pay for the whole period even if you stop early. All plans renew and bill again until you cancel.
 4. **Number of VPS.** Leave it at **1**.
 5. **Location.** Open the **North America** tab and pick **Virginia** (closer to Mexico City) or **Oregon**.
